@@ -1,0 +1,68 @@
+<!––
+ BizPad Technologies / www.bizpadtech.com/
+––!>
+<!DOCTYPE html>
+<head>
+    <title>BizPad Technologies Golf Shoes</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <style>
+        body {
+            color: #000;
+            font-family: Monospace;
+            font-size: 10px;
+            font-weight: bold;
+
+            background-color: #fff;
+            margin: 0px;
+            overflow: hidden;
+        }
+        #buttons {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            display: flex;
+            justify-content: flex-end;
+			font-size: 10px;
+        }
+        #buttons button {
+            margin-left: 30px;
+            padding: 7px 10px;
+            border: 1px solid black;
+            border-radius: 15px;
+            color: #fff;
+			font-size: 10px;
+        }
+		#table {
+            font-family: Monospace;
+            font-size: 19px;
+            font-weight: bold;
+            margin: 0px;
+            overflow: hidden;
+			background-color: transparent;
+        }
+    </style>
+
+    <script type="text/javascript">
+        var configuration = {
+            colors: [
+                { name: "BizPad Technologies", value: "#283142" },
+				{ name: "Soft Black", value: "#2d2f2d" },
+                { name: "Olive Brown", value: "#6f4f28" },
+                { name: "Tarpaulin Gray", value: "#4c514a" }
+            ],
+            file: "GolfShoes.fbx"
+        }
+    </script>
+</head>
+
+<body>
+
+	<div id="buttons"></div>
+
+    <script src="lib/inflate.min.js""></script>
+    <script src="lib/three.min.js""></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
